@@ -83,6 +83,8 @@ if [ -f /etc/nv_tegra_release ]; then
                     JETSON_JETPACK="3.1" ;;
             "27.1") 
                     JETSON_JETPACK="3.0" ;;
+            "32.2.1") 
+                    JETSON_JETPACK="4.2.2" ;;
             *)
                JETSON_JETPACK="UNKNOWN" ;;
         esac
